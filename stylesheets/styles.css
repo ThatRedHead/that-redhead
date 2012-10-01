@@ -1,0 +1,35 @@
+body	{
+	background: rgb(245,248,248);
+}
+header	{
+	background: rgba(204,51,0, .8);
+	width: inherit;
+	text-align: center;
+	box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, .5);
+}
+nav li {
+	display: inline;
+	color: black;
+}
+nav {
+
+	margin: 0px 0 0 -6px;
+	padding: 0px 12px 0px 0px;
+	width: 100%;
+	background: white;
+	box-shadow: 0px 7px px -4px rgba(0, 0, 0, .5);
+}
+
+header h1 {
+	padding-left: 5px;
+	color: white;
+}
+
+header a, header a:link {
+	color: black;
+}
+
+
+header a:hover {
+	color: #d1d1d1;
+}

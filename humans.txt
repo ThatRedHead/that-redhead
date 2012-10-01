@@ -1,0 +1,26 @@
+/* TEAM */
+	Me:Rebecca Meredith
+	Twitter: @ThatRH
+
+/* SITE */
+	Last update: 08/22/2012
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text
+
+/* RESOURCES */
+		
+	What: Skeleton 
+	Where: http://www.getskeleton.com/
+
+	What: Lightbox
+	Where: http://lokeshdhakar.com/projects/lightbox2/
+
+/* THANKS */
+
+	Teacher: P. Colin Manikoth
+	Blurb: You unleashed the rocket-launcher-wielding grunt.
+	Twitter: @poukong
+
+
+/* Be not forgetful to entertain strangers; for thereby some have entertained angels unawares. */
