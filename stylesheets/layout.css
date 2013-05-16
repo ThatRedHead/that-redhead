@@ -52,12 +52,12 @@ nav li {
 
 nav a, nav a:link {
 	color: #222;
-	-webkit-transition: color 0.2s ease-in-out;
-	-moz-transition: color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
-nav a:hover {
+nav a:hover, nav a:active {
 	color: #a9a9a9;
 }
 
@@ -102,6 +102,14 @@ nav a:hover {
 }
 
 /*home*/
+
+.two.columns.tag {
+    height: 100px;
+    color: red;
+	margin-left: 5px; 
+	margin-right: 5px; 
+	border:solid 2px white;
+}
 
 
 /* #Media Queries
