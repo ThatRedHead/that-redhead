@@ -18,7 +18,7 @@
   ================================================== -->
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/styles.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,9 +33,7 @@
  -->
 </head>
 <body>
-
-
-	<div class="container">
+	<div class="container home">
 		<header class="sixteen columns">
 			<h1><a href="index.html">That Red Head</a></h1>
 			<p>complexity in simplicity</p>
@@ -46,60 +44,35 @@
 			</nav>			
 		</header>
 
-		<section class="twelve columns">
-			<h3>Welcome to the home of That Red Head</h3>
+		<section class="sixteen columns">
+			<h2>Welcome to the home of That Red Head</h2>
 			<p>Take some time to explore. The site is undergoing a few changes, so keep an eye out for updates in the <a href="portfolio.html">Portfolio</a> and additional sections being added for Special Effects Makeup and Technical Support.</p>
 
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
-			<div class="two columns tag">test</div>
+		</section>
+		<hr>
+		<section class="ten columns">
+			<h3>Latest Shots</h3>
+			<ul class="dribbble" id="shotsByPlayerId"></ul>
 
 		</section>
 
-		<section class="four columns">
-			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-			<script>
-			new TWTR.Widget({
-			  version: 2,
-			  type: 'profile',
-			  rpp: 5,
-			  interval: 30000,
-			  width: 'auto',
-			  height: 300,
-			  theme: {
-			    shell: {
+		<section class="six columns">
+			<a class="twitter-timeline" href="https://twitter.com/ThatRH" data-widget-id="336644650981015554">Tweets by @ThatRH</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-			      background: '#ffffff',
-			      color: '#707070'
-			    },
-			    tweets: {
-			      background: '#ffffff',
-			      color: '#525252',
-			      links: 'rgb(204,51,0)'
-			    }
-			  },
-			  features: {
-			    loop: false,
-			    live: true,
-			    behavior: 'all'
-			  }
-			}).render().setUser('ThatRH').start();
-			</script>
 		</section>
 
 
 
-
+		<footer class="sixteen columns">
+			<hr>
+			<p><small>&copy; That Red Head, 2013 | <a href="thanks.html">thanks</a></small></p>
+		</footer>
 	</div><!-- container -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jribble.js" type="text/javascript"></script>
+
+	<script src="js/scripts.js" type="text/javascript"></script>
 
 
 <!-- End Document
