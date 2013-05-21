@@ -53,22 +53,102 @@
 		</header>
 		<section class="sixteen columns">
 			<h2>Portfolio</h2>
+			<p>These are just a few pieces. For more work, visit my <a href="http://dribbble.com/ThatRedHead">Dribbble</a> page.</p>
 		</section>
 		<hr>
+			<section class="sixteen columns">
+				<h3>Web Design</h3>
+			</section>
+			<section class="one-third column web">
+				<a href="http://riverbendgroup.com">
+					www.riverbendgroup.com
+				</a>
+				<p>Riverbend Group is an engineering services firm in Post Falls. Their work ranges from energy conservation to system design, both locally and internationally. </p>
+			</section>
+			<section class="one-third column web">
+				<a href="http://that-redhead.com/cdapress1/">
+					CDA Get It Concept
+				</a>
+				<p>A responsive shopping site concept, developed for CDA Get It.</p>
+			</section>
+			<section class="one-third column web">
+				<p>Sadly, much of my other client work is still under wraps at the moment, but more examples will be added as they become available</p>
+			</section>
+
 		<div class="portfolio">
+			<section class="sixteen columns">
+				<h3>Logos</h3>
+			</section>
 			<section class="four columns">
-				<a href="images/bio-photo.jpg">Open popup</a>
+				<a href="images/port/logo-rgb.jpg" alt="Riverbend Group">
+					<img src="images/port/logo-rgb-thumb.jpg">
+				</a>
 			</section>
-					<section class="four columns">
-				<a class="test-popup-link" href="images/bio-photo.jpg">Open popup</a>
+			<section class="four columns">
+				<a href="images/port/logo-cr3.jpg" alt="Cable Creek Coffee Roasters">
+					<img src="images/port/logo-cr3-thumb.jpg">
+				</a>
 			</section>
-					<section class="four columns">
-				<a class="test-popup-link" href="images/bio-photo.jpg">Open popup</a>
+			<section class="four columns">
+				<a href="images/port/logo-rogue.jpg" alt="Rogue">
+					<img src="images/port/logo-rogue-thumb.jpg">
+				</a>
 			</section>
-					<section class="four columns">
-				<a class="test-popup-link" href="images/bio-photo.jpg">Open popup</a>
+			<section class="four columns">
+				<a href="images/port/logo-dtc.jpg" alt="Dominion Trading Coffee">
+					<img src="images/port/logo-dtc-thumb.jpg">
+				</a>
+			</section>
+
+			<section class="sixteen columns">
+				<h3>Posters</h3>
+			</section>
+			<section class="four columns">
+				<a href="images/port/poster-artshow2010.jpg" alt="Student Art Show">
+					<img src="images/port/poster-artshow2010-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/poster-equinox.jpg" alt="After the Equinox">
+					<img src="images/port/poster-equinox-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/poster-preflight2011.jpg" alt="Preflight">
+					<img src="images/port/poster-preflight2011-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/poster-rs2011.jpg" alt="Red Shoe Event">
+					<img src="images/port/poster-rs2011-thumb.jpg">
+				</a>
+			</section>
+
+			<section class="sixteen columns">
+				<h3>Illustration</h3>
+			</section>
+			<section class="four columns">
+				<a href="images/port/5x5caddy2012.jpg" alt="5x5 Caddy | 2012">
+					<img src="images/port/5x5caddy2012-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/ipad-sunrise.jpg" alt="iPad Sunrise">
+					<img src="images/port/ipad-sunrise-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/ipad-walle.jpg" alt="iPad Walle">
+					<img src="images/port/ipad-walle-thumb.jpg">
+				</a>
+			</section>
+			<section class="four columns">
+				<a href="images/port/5x5lovesongs2011.jpg" alt="5x5 Love Songs | 2011">
+					<img src="images/port/5x5lovesongs2011-thumb.jpg">
+				</a>
 			</section>
 		</div>
+
 		<footer class="sixteen columns">
 			<hr>
 			<p><small>&copy; That Red Head, 2013 | <a href="thanks.html">thanks</a></small></p>
@@ -81,9 +161,18 @@
 		// magnific
 		
 		$('.portfolio').magnificPopup({
-		delegate: 'a', // child items selector, by clicking on it popup will open
-		type: 'image'
-			// other options
+		delegate: 'a', 
+		type: 'image',
+		gallery: {
+  			enabled: true, 
+			preload: [0,2], 
+			navigateByImgClick: true,
+  			arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', 
+			tPrev: 'Previous (Left arrow key)',
+  			tNext: 'Next (Right arrow key)',
+  			
+			}
+
 		});
 
 		

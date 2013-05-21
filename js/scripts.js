@@ -19,12 +19,3 @@ $(document).ready(function (){
 	$.jribbble.getShotsByPlayerId('That-RedHead', callback, {page: 1, per_page: 12});
 
 });
-// magnific
-$(document).ready(function (){
-	$('.image-link').magnificPopup({type:'image'});
-
-	$('.test-popup-link').magnificPopup({ 
-	  type: 'image'
-		// other options
-	});
-});

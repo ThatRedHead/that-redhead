@@ -113,22 +113,30 @@ footer {
 
 /*portfolio*/
 
-.gallery .four	{
-	background: rgb(245,248,248);
+.web p {
+	font-size: 90%;
+}
+
+.portfolio img {
+	width: 96%;
+	padding: 2%;
+}
+
+.portfolio a {
+	height: 100%;
+	float: left;
+	border-radius: 5px;
+
 	-webkit-transition: background 0.2s ease-in-out;
 	-moz-transition: background 0.2s ease-in-out;
 	transition: background 0.2s ease-in-out;
-	border-radius: 5px;
+
 }
 
-.gallery .four:hover	{
-	background:#dddddd;
-}
+.portfolio a:hover {
+		background:#dddddd;
 
-.gallery .four img	{
-	margin: 5px 10px;
 }
-
 /*contact*/
 
 .contact .one-third	{
