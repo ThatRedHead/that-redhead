@@ -85,10 +85,13 @@ nav {
 }
 nav li {
 	display: inline;
-	color: #a9a9a9;
+	color: rgb(204,51,0);
+}
+nav li span {
+	color:#a9a9a9;
 }
 
-nav a, nav a:link {
+nav a:link {
 	color: #222;
 	-webkit-transition: color 0.1s ease-in-out;
 	-moz-transition: color 0.1s ease-in-out;
@@ -96,7 +99,7 @@ nav a, nav a:link {
 }
 
 nav a:hover, nav a:active {
-	color: #a9a9a9;
+	color: rgb(204,51,0);
 }
 
 footer {
@@ -200,6 +203,14 @@ footer {
 .dribbble img {
 	width: 100%;
 }
+
+/*about*/
+.about .sixteen img {
+	width: 101%;
+	float: left;
+	margin: 5px 0 15px 0;
+}
+
 
 /* #Media Queries
 ================================================== */
