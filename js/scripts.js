@@ -1,16 +1,30 @@
-var callback = function (playerShots) {
-    var html = '';
+// Dribble
+$(document).ready(function (){
 
-    $('h2 b').text(playerShots.shots[0].player.name);
+	var callback = function (playerShots) {
+	    var html = '';
 
-    $.each(playerShots.shots, function (i, shot) {
-        html += '<li class="three columns">';
-        html += '<a href="' + shot.url + '" target="_blank">';
-        html += '<img src="' + shot.image_url + '" ';
-        html += 'alt="' + shot.title + '"></a></li>';
-    });
+	    $('h2 b').text(playerShots.shots[0].player.name);
 
-    $('#shotsByPlayerId').html(html);
-};
+	    $.each(playerShots.shots, function (i, shot) {
+	        html += '<li class="three columns">';
+	        html += '<a href="' + shot.url + '" target="_blank">';
+	        html += '<img src="' + shot.image_url + '" ';
+	        html += 'alt="' + shot.title + '"></a></li>';
+	    });
 
-$.jribbble.getShotsByPlayerId('That-RedHead', callback, {page: 1, per_page: 12});
+	    $('#shotsByPlayerId').html(html);
+	};
+
+	$.jribbble.getShotsByPlayerId('That-RedHead', callback, {page: 1, per_page: 12});
+
+});
+// magnific
+$(document).ready(function (){
+	$('.image-link').magnificPopup({type:'image'});
+
+	$('.test-popup-link').magnificPopup({ 
+	  type: 'image'
+		// other options
+	});
+});
