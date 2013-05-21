@@ -85,20 +85,67 @@ nav a:hover, nav a:active {
 
 /*contact*/
 
-.contact .four	{
+.contact .one-third	{
+	padding-top: 3%;
+	padding-bottom:1%;
+	margin-bottom: 1%;
 	background: rgb(245,248,248);
 	-webkit-transition: background 0.2s ease-in-out;
 	-moz-transition: background 0.2s ease-in-out;
 	transition: background 0.2s ease-in-out;
 	border-radius: 5px;
+	text-align: center;
 }
 
-.contact .four:hover	{
+.contact .one-third:hover	{
 	background:#dddddd;
 }
 
-.contact .four h3, .contact .four p {
+.contact .one-third h3, .contact .one-third p {
 	margin-left: 5px;
+}
+
+.contact .one-third h3 {
+	font-size: 3.5em;
+	position: relative;
+	top: 0px;
+	-webkit-transition: top 0.2s ease-in-out;
+	-moz-transition: top 0.2s ease-in-out;
+	transition: top 0.2s ease-in-out;
+}
+
+.contact .one-third:hover h3 {
+	top:-4px;
+
+}
+
+.jotform-form {
+	text-align: center;
+}
+
+.jotform-form label {
+	text-align: left;
+}
+
+.jotform-form li.form-line {
+	float: left;
+	margin: 0 39%;
+}
+
+.jotform-form li#id_17 {
+	margin: 0 29%;
+}
+
+.jotform-form li#id_14 {
+	margin: 0 47%;
+}
+
+.jotform-form .form-textarea {
+	width: 400px;
+}
+
+.thanks {
+	text-align: center;
 }
 
 /*home*/
@@ -125,10 +172,46 @@ nav a:hover, nav a:active {
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.jotform-form li.form-line {
+			float: left;
+			margin: 0 2%;
+		}
 
+		.jotform-form li#id_17 {
+			margin: 0 2%;
+		}
+
+		.jotform-form li#id_14 {
+			margin: 0 2%;
+		}
+		.jotform-form .form-textarea {
+			width: 96%;
+		}
+
+	}
+		
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		.jotform-form li.form-line {
+			float: left;
+			margin: 0 2%;
+		}
+
+		.jotform-form li#id_17 {
+			margin: 0 2%;
+		}
+
+		.jotform-form li#id_14 {
+			margin: 0 2%;
+		}
+		.jotform-form .form-textarea {
+			width: 96%;
+		}
+		
+	}		
+
+	}
 
 
 /* #Font-Face
