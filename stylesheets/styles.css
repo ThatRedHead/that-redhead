@@ -143,7 +143,7 @@ footer {
 }
 /*contact*/
 
-.contact .one-third	{
+.contact .four	{
 	padding-top: 3%;
 	padding-bottom:1%;
 	margin-bottom: 1%;
@@ -155,15 +155,15 @@ footer {
 	text-align: center;
 }
 
-.contact .one-third:hover	{
+.contact .four:hover	{
 	background:#dddddd;
 }
 
-.contact .one-third h3, .contact .one-third p {
+.contact .four h3, .contact .four p {
 	margin-left: 5px;
 }
 
-.contact .one-third h3 {
+.contact .four h3 {
 	font-size: 3.5em;
 	position: relative;
 	top: 0px;
@@ -172,7 +172,7 @@ footer {
 	transition: top 0.2s ease-in-out;
 }
 
-.contact .one-third:hover h3 {
+.contact .four:hover h3 {
 	top:-4px;
 
 }
