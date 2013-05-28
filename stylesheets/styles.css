@@ -137,6 +137,10 @@ footer {
 		background:#dddddd;
 
 }
+
+.note a {
+	padding: 3%;
+}
 /*contact*/
 
 .contact .one-third	{
